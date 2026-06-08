@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 뷰티 브랜드 '제니트리' 디지털 초청장 글로벌 스타일 */
+
+:root {
+  /* 배경색: 부드러운 크림/아이보리 톤 */
+  --background: #fdfbf7;
+  /* 텍스트색: 차분하고 고급스러운 다크 브라운 톤 */
+  --foreground: #2d2621;
+  
+  /* 골드 포인트 색상 정의 */
+  --gold-light: #dfc8a5;
+  --gold-main: #c5a880;
+  --gold-dark: #a68453;
+  --gold-soft: #f4eee3;
+}
+
+/* 시스템 다크 모드가 설정되어 있더라도, 초청장 페이지의 프리미엄 감성 유지를 위해 라이트 톤(오프화이트&골드)을 유지하도록 설정합니다. */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-playfair), var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 스크롤바를 얇고 아름답게 디자인합니다. */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gold-main);
+  border-radius: 3px;
+}
+
+/* 텍스트 줄바꿈 밸런스 유틸리티 */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
