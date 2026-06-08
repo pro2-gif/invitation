@@ -7,8 +7,7 @@ import { Calendar, MapPin, ExternalLink, CalendarRange, Share2, Check } from "lu
 const TARGET_DATE = "2026-07-01T10:00:00";
 // 구글 지도 공식 검색 링크 (코엑스)
 const GOOGLE_MAP_URL = "https://maps.google.com/?q=COEX";
-// 사전 등록 연결 링크 (공식 홈페이지 등 임시 설정)
-const REGISTER_URL = "https://www.in-cosmeticskorea.com/";
+
 
 /**
  * [2026 인-코스메틱스 코리아 디지털 초청장 메인 페이지]
