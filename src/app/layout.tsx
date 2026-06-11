@@ -27,12 +27,12 @@ export const viewport: Viewport = {
 
 // SEO 최적화를 위한 사이트 메타데이터 정의
 export const metadata: Metadata = {
-  title: "JANYTREE | 제니트리 2026 홍콩 코스모프로프 아시아 초청장",
-  description: "화장품/뷰티 브랜드 '제니트리'의 '2026 중국 홍콩 코스모프로프 아시아 미용 전시회(Cosmoprof Asia 2026)' 참가 안내를 위한 모바일 디지털 초청장입니다.",
+  title: "2026 인-코스메틱스 코리아",
+  description: "글로벌 화장품 산업의 혁신 기술과 트렌드, 2026 인-코스메틱스 코리아 전시회에 여러분을 초대합니다.",
   // 검색엔진 노출 및 웹 표준 구조화
   openGraph: {
-    title: "제니트리 2026 홍콩 코스모프로프 아시아 초청장",
-    description: "2026.11.11 ~ 11.13 홍콩전시컨벤션센터(HKCEC) 제니트리 부스에서 여러분을 기다립니다.",
+    title: "2026 인-코스메틱스 코리아",
+    description: "2026.07.01 ~ 07.03 코엑스(COEX)에서 글로벌 화장품 원료 전문 전시회를 만나보세요.",
     type: "website",
   },
 };
